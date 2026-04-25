@@ -13,7 +13,7 @@ Breast cancer diagnosis is a binary classification problem where each sample mus
 - **Benign**
 - **Malignant**
 
-In this project, several machine learning models are trained and evaluated on the Breast Cancer Wisconsin Diagnostic dataset.
+In this project, several machine learning models are trained and evaluated on the Breast Cancer Wisconsin Diagnostic dataset (https://archive.ics.uci.edu/dataset/17/breast%2Bcancer%2Bwisconsin%2Bdiagnostic).
 
 The workflow includes:
 
@@ -27,29 +27,13 @@ The workflow includes:
 
 ---
 
-## Dataset
 
-The dataset used in this project is:
+## Project Structure
 
-**Breast Cancer Wisconsin (Diagnostic)**  
-Source: UCI Machine Learning Repository  
-Dataset ID: `17`
+The project is currently organized as follows:
 
-The dataset contains features computed from digitized images of a fine needle aspirate of breast masses. These features describe characteristics of the cell nuclei present in the images.
-
-### Dataset Characteristics
-
-- **Number of instances:** 569
-- **Number of features:** 30
-- **Feature type:** Real-valued
-- **Task:** Binary classification
-- **Target variable:** Diagnosis
-- **Classes:**
-  - `B`: Benign
-  - `M`: Malignant
-
-In the code, the target variable is mapped as follows:
-
-```python
-B -> 0
-M -> 1
+```text
+Breast-cancer-classification/
+│
+├── Breast.py      # Main script containing the complete classification pipeline
+└── README.md      # Project documentation
